@@ -1,0 +1,43 @@
+/* UserList.css */
+
+.user-list-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.user-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  background-color: #f0f0f0;
+}
+
+.user-details {
+  text-align: center;
+  margin: 20px;
+}
+
+.user-details img {
+  border-radius: 50%; /* Optional: Add a rounded border to the user's image */
+  margin-bottom: 10px;
+}
+
+.user-details a {
+  color: #007bff; /* Optional: Style the link color */
+  text-decoration: none;
+}
+
+.user-details a:hover {
+  text-decoration: underline; /* Optional: Add an underline on hover */
+}
